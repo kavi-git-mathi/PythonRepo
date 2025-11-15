@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: PythonRepo
-        image: acraksdevopspipeline:latest
+        image: acrrepo4devops.azurecr.io/pythonDevops:latest
         ports:
         - containerPort: 5000
 ---
